@@ -1,0 +1,366 @@
+.page {
+    min-width: 1100px;
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  }
+   
+  .header {
+    display: flex;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    background-color: #f2f2f2;
+    background-position: 100%;
+    /* выше установили ограничения для секции */
+    flex-direction: column;
+    position: relative;
+  }
+  
+  
+  .logo__place_header{
+    background-image: url(C:/Users/Boos/Desktop/Тата/dev/first-project/images/logo_place_header.svg);
+    width: 228px;
+    height: 32px;
+    margin-left: 64px;
+    margin-top: 30px;
+    margin-bottom: 110px;
+   
+  }
+  
+  .main-illustration{
+    width: 756px;
+    height: 608px;
+    background-image: url(images/two_again.png);
+    background-size: cover;
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+}
+  
+   .title{
+    width: 730px;
+    font-size: 102px;
+    line-height: 96px;
+    font-weight: 600;
+    margin-left: 64px;
+    margin-bottom: 200px;
+   }
+
+   .subtitle{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+    margin-left: 64px;
+    width: 388px;
+    margin-bottom: 30px;
+   }
+
+  .square-pic{
+    width: 568px;
+    height: 568px;
+    background-color: #2f80ed;
+    right: 11px;
+    position: absolute;
+    margin-top: 64px;
+    right: 0px;
+  }
+
+    .link{
+    color:#2f80ed;
+    } 
+ 
+  /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+  .header__square-pic {
+    height: 568px;
+    width: 568px;
+  }
+  
+  /* и элемента с модификатором вида ключ-значение */
+  .table__cell_theme_dark {
+    width: 200px;
+    color: white;
+    margin-right: 0;
+    margin-top: 80px;
+  }
+
+  .description{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .two-columns{
+   display: flex;
+   width: 80%;
+   margin-bottom: 0;
+   justify-content: space-between;
+  }
+
+  .two-columns__brief{
+    width: 175px;
+    line-height: 1.2;
+    font-size: 18px;
+    font-style: normal;
+    color: #2f80ed;
+    margin-top: 0;
+    white-space:nowrap;
+  }
+
+
+  .two-columns__main-text{
+   display: flex;
+   justify-content:  space-between;
+   width: 80%;
+   min-width: 784px;
+   flex-direction: column;
+  }
+
+  .two-columns__paragraph{
+    display: flex;
+    line-height: 34px;
+    font-size: 24px;
+    font-style: normal;
+    margin-top: 0;
+  }
+
+  .two-columns__span-accept{
+    line-height: 34px;
+    font-size: 24px;
+    font-style: 600;
+  }
+
+  .section-title{
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-top: 100px;
+  }
+
+  .section-subtitle{
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 0;
+  }
+
+  .table{
+  display: flex;
+  width: 1100px;
+  margin: auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 0;
+  }
+
+  .table__cell{
+    width: 250px;
+    margin-top: 60px;
+    display:flex;
+    flex-direction: column;
+  }
+
+  .table__heading{
+    margin-bottom: 20px;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .table__text{
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+  }
+
+  .feynman{
+    background-image: url(images/feynman.png);
+    background-repeat: no-repeat;
+    background-size: 867px 637px;
+    height: 890px;
+    background-position: bottom left;
+    margin-bottom: -20px;
+  }
+
+  .feynman__title{
+    margin-top: 100px;
+    width: 648px;
+    line-height: 1.15;
+    font-size:  120px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .feynman__subtitle{
+    line-height: 51px;
+    font-size:  36px;
+    font-weight: normal;
+    text-align: center;
+  }
+  .feynman__link{
+    text-decoration: none;
+    color: #2f80ed;
+    position: absolute;
+    text-align: center;
+    margin-left: 1332px;
+    line-height: 51px;
+    font-size:  36px;
+    font-weight: normal;
+  }
+    
+  .kaufman{
+    background-color: #1f1f1f;
+    overflow: hidden;
+    margin-bottom: 90;
+    position: relative;
+    z-index: 2;
+    background-image: url(images/kaufman-triangle.svg);
+    background-repeat: no-repeat;
+    background-size: 877px 877px;
+    background-position: right;
+    background-position-x: 900px;
+    background-position-y: 2px;
+  }
+
+  .section-title_theme_dark{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 0;
+    line-height: 1.15;
+    font-size:  60px;
+    font-weight: 600;
+    color:#f2f2f2;
+  }
+
+  .section-subtitle_theme_dark{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+    line-height: 34px;
+    font-size: 24px;
+    font-style: normal;
+    color: #f2f2f2;
+  }
+
+  .table_theme_dark{
+   display: flex;
+   width: 1100px;
+   margin: auto;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin-top: 0;
+   margin-bottom: 90px;
+   position: relative;
+   z-index: 0;
+  }
+
+  .table__cell_theme_dark{
+    margin-top: 80px;
+  }
+
+  .table__heading_theme_dark{
+    margin-bottom: 20px;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .table__text_theme_dark{
+    line-height: 1.2;
+    font-size: 18px;
+    font-style: normal;
+  }
+
+  .footer{
+    display:flex;
+    background-color:#1f1f1f;
+    min-height: 350px;
+  }
+
+  .footer__columns{
+   display: flex;
+   margin: auto;
+   margin-top: 60px;
+   margin-bottom: 40px;
+   width: 90%;
+  }
+
+  .footer__column-links{
+    display: inline-block;
+    color:#f2f2f2;
+    line-height: 30px;
+    font-size:  18px;
+    font-weight: normal;
+    
+  }
+
+  .logo__place_footer{
+    background-image: url(images/logo_place_footer.svg);
+    width: 228px;
+    height: 32px;
+    color:#f2f2f2;
+    display: flex;
+  }
+
+  .footer__columns_content_copyright{
+    display: flex;
+    flex-flow: wrap row;
+    flex-flow:wrap column;
+    justify-content:space-between;
+    flex-basis: 711px;
+  }
+
+
+
+  .footer__social-icon{
+    height: 10px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color:#f2f2f2;
+  }
+
+  .footer__columns_content_social{
+    display: inline-block;
+    color: #f2f2f2;
+    width: 10%;
+  }
+
+  .footer__author{
+    color: #f2f2f2;
+    margin-top: 18px;
+    margin-bottom:18px ;
+    line-height: 25px;
+    font-size:  18px;
+    font-weight: normal;
+  
+  }
+
+  .footer__column-heading{
+    color: #f2f2f2;
+    margin-bottom: 20px;
+    line-height: 30px;
+    font-size:  18px;
+    font-weight: 600;
+    margin-top: 0;
+  }
+
+  .footer__columns_content_info{
+    display: flex;
+    flex-direction: column;
+  
+  }
+
+  .footer__column-links a{
+    text-decoration: none;
+    color: #f2f2f2;
+  }
+
+
+ 
